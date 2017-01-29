@@ -82,14 +82,15 @@ To install ruby and gemfiles, perform the following:
 # make sure you are in the home directory
 cd ~/
 
-# install ruby 2.1.4
-rbenv install 2.1.4
+# install ruby 2.4.0
+# expect this to take several minutes...
+rbenv install 2.4.0
 
 # make sure you are in your project directory
 cd ~/sites/warpspeed-rails.dev
 
-# set the local ruby version to 2.1.4
-rbenv local 2.1.4
+# set the local ruby version to 2.4.0
+rbenv local 2.4.0
 
 # use the bundler to install gemfiles
 bundle install
