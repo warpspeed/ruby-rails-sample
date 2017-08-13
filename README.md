@@ -110,7 +110,7 @@ cd ~/sites/warpspeed-rails.dev
 rake secret
 
 # create the file for the environment variables
-sudo nano .rbenv-vars
+nano .rbenv-vars
 
 # add the following lines
 DB_NAME="tasks_db"
